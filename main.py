@@ -235,5 +235,5 @@ if st.button("🔮 Prédire la culture recommandée"):
 # Ajout d'une section "À propos"
 st.sidebar.subheader("📢 À propos")
 st.sidebar.write("Application développée par l'équipe SABAD (Abata, Ambika, Bongu, Debuze et Simbi) ")
-st.sidebar.write("Données issues de du Kaggle pour l'entrainement.")
+st.sidebar.write("Données issues de Kaggle pour l'entrainement.")
 st.sidebar.write("Modèle basé sur un Random Forest entraîné sur un jeu de données de recommandation de culture.")
