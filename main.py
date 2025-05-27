@@ -24,7 +24,7 @@ st.markdown(GA_JS, unsafe_allow_html=True)
 # Titre de l'application
 st.write('''
 # 🌱 Prédiction de Culture Agricole
-Cette application recommande la culture la plus adaptée en fonction de la qualité du sol et des conditions environnementales.
+Cette application recommande la culture la plus adaptée en fonction de la qualité du sol et des conditions environnementales..
 ''')
 
 # Chargement des données
