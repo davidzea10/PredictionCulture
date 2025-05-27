@@ -9,6 +9,18 @@ from sklearn.preprocessing import MinMaxScaler
 import pickle
 import os
 
+# ➕ Intégration Google Analytics
+GA_JS = """
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D2T0F15YZ8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-D2T0F15YZ8');
+</script>
+"""
+st.markdown(GA_JS, unsafe_allow_html=True)
 # Titre de l'application
 st.write('''
 # 🌱 Prédiction de Culture Agricole
